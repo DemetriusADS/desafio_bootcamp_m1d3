@@ -55,7 +55,7 @@ export default function App() {
           // Remember to replace "1" below with repository ID: {`repository-likes-${repository.id}`}
           testID={`repository-likes-${repository.id}`}
         >
-          {repository.likes} curtida(s)
+          {repository.likes} curtidas
         </Text>
       </View>
 
@@ -121,6 +121,7 @@ const styles = StyleSheet.create({
   },
   button: {
     marginTop: 10,
+    
   },
   buttonText: {
     fontSize: 14,
@@ -129,5 +130,6 @@ const styles = StyleSheet.create({
     color: "#fff",
     backgroundColor: "#7159c1",
     padding: 15,
+    textAlign: "center"
   },
 });
